@@ -1,4 +1,4 @@
-# my-vue-ts-project
+# Plantilla de Vue para Frontend
 
 ## Project setup
 ```
