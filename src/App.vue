@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <UserListView />
+  <UserDetailView />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UserListView from './presentation/views/UserListView.vue'
+import UserDetailView from './presentation/views/UserDetailView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    UserListView,
+    UserDetailView
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
